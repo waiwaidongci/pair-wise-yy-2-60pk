@@ -52,5 +52,72 @@
       "transfers": [],
       "races": []
     }
+  ],
+  "reports": [
+    {
+      "id": "RPT-0001",
+      "ringNo": "CHN-2022-188",
+      "item": "进行性视网膜萎缩",
+      "conclusion": "carrier",
+      "sampleNo": "S2604-018",
+      "reportDate": "2026-04-02",
+      "lab": "信鸽遗传检测中心",
+      "note": "种鸽入棚筛查",
+      "status": "valid",
+      "corrects": null,
+      "correctedBy": null,
+      "createdAt": "2026-04-02T09:00:00.000Z"
+    },
+    {
+      "id": "RPT-0002",
+      "ringNo": "CHN-2023-512",
+      "item": "进行性视网膜萎缩",
+      "conclusion": "carrier",
+      "sampleNo": "S2604-019",
+      "reportDate": "2026-04-02",
+      "lab": "信鸽遗传检测中心",
+      "note": "种鸽入棚筛查",
+      "status": "valid",
+      "corrects": null,
+      "correctedBy": null,
+      "createdAt": "2026-04-02T09:05:00.000Z"
+    },
+    {
+      "id": "RPT-0003",
+      "ringNo": "CHN-2026-001",
+      "item": "进行性视网膜萎缩",
+      "conclusion": "affected",
+      "sampleNo": "S2605-006",
+      "reportDate": "2026-05-10",
+      "lab": "信鸽遗传检测中心",
+      "note": "幼鸽发病确诊",
+      "status": "valid",
+      "corrects": null,
+      "correctedBy": null,
+      "createdAt": "2026-05-10T10:00:00.000Z"
+    }
+  ],
+  "pairs": [
+    {
+      "id": "PAIR-0001",
+      "ringA": "CHN-2022-188",
+      "ringB": "CHN-2023-512",
+      "createdAt": "2026-03-01",
+      "status": "frozen",
+      "frozenAt": "2026-04-02",
+      "frozenReason": "双方均为「进行性视网膜萎缩」携带者，禁止配组",
+      "history": [
+        {
+          "date": "2026-03-01",
+          "action": "create",
+          "reason": "登记配组"
+        },
+        {
+          "date": "2026-04-02",
+          "action": "freeze",
+          "reason": "双方均为「进行性视网膜萎缩」携带者，禁止配组"
+        }
+      ]
+    }
   ]
 }
