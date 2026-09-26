@@ -52,5 +52,70 @@
       "transfers": [],
       "races": []
     }
-  ]
+  ],
+  "testReports": [
+    {
+      "id": 1,
+      "ringNo": "CHN-2022-188",
+      "item": "遗传性神经震颤",
+      "conclusion": "携带",
+      "sampleNo": "YB-2603-011",
+      "reportDate": "2026-03-01",
+      "status": "valid",
+      "supersedes": null,
+      "createdAt": "2026-03-01"
+    },
+    {
+      "id": 2,
+      "ringNo": "CHN-2023-512",
+      "item": "遗传性神经震颤",
+      "conclusion": "携带",
+      "sampleNo": "YB-2603-012",
+      "reportDate": "2026-03-01",
+      "status": "valid",
+      "supersedes": null,
+      "createdAt": "2026-03-01"
+    },
+    {
+      "id": 3,
+      "ringNo": "CHN-2026-001",
+      "item": "遗传性神经震颤",
+      "conclusion": "患病",
+      "sampleNo": "YB-2605-007",
+      "reportDate": "2026-05-10",
+      "status": "valid",
+      "supersedes": null,
+      "createdAt": "2026-05-10"
+    }
+  ],
+  "pairings": [
+    {
+      "id": 1,
+      "maleRing": "CHN-2022-188",
+      "femaleRing": "CHN-2023-512",
+      "createdAt": "2026-02-10",
+      "status": "frozen",
+      "frozenReasons": [
+        "双方「遗传性神经震颤」最新有效报告均为携带，同病携带者不得配组"
+      ],
+      "events": [
+        {
+          "date": "2026-02-10",
+          "action": "created",
+          "reasons": []
+        },
+        {
+          "date": "2026-03-01",
+          "action": "frozen",
+          "reasons": [
+            "双方「遗传性神经震颤」最新有效报告均为携带，同病携带者不得配组"
+          ]
+        }
+      ]
+    }
+  ],
+  "seq": {
+    "report": 3,
+    "pairing": 1
+  }
 }
